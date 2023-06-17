@@ -19,7 +19,7 @@ const App = ()=>{
                 setMessage('User not found')
             } 
             else if(!Data.find(item=>item.password===pass)){
-                setMessage('Password Incorrect');
+                setMessage('Password Incorrect please enter correct one');
             }
             else {
                 console.log(Data);

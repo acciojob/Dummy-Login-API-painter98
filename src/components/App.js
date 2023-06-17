@@ -26,9 +26,9 @@ const App = ()=>{
             }
            }
            catch(error){
-                console.log(error)
+                console.log(error);
            }
-    },3000);
+        },3000);
     }
 
     return (
